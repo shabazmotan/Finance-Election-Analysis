@@ -5,7 +5,7 @@ import csv
 
 PyPollcsv = os.path.join("Resources","election_data.csv")
 
-# Create the lists to store data. Initialize
+# Create the lists to store data
 
 count = 0
 candidatelist = []
