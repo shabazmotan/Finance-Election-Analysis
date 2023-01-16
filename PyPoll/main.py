@@ -18,7 +18,7 @@ vote_percent = []
 with open(PyPollcsv, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
-    # Conduct the ask
+   
     for row in csvreader:
         # Count the total number of votes
         count = count + 1
